@@ -159,14 +159,14 @@ DATA_PATH=os.path.join(base_path,'MP_Data')
 print(DATA_PATH)  # 輸出: D:/Actiondetection/MP_Data
 
 # Actions that we try to detect
-actions = np.array(['hello', 'thanks', 'iloveyou'])
-# actions = np.array(['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'])
+# actions = np.array(['hello', 'thanks', 'iloveyou'])
+actions = np.array(['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'])
 
 # Thirty videos worth of data
-no_sequences = 30
+no_sequences = 10
 
 # Videos are going to be 30 frames in length
-sequence_length = 30
+sequence_length = 10
 
 # Folder start
 start_folder = 1
